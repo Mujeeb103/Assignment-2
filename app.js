@@ -10,3 +10,9 @@ function defineNoteWritingSection() {
     ` 
     return html
 }
+
+function createContentWritingArea() {
+    const div = document.querySelector('#content')
+    div.insertAdjacentHTML('beforeend', defineNoteWritingSection())
+    setCursor()
+}
