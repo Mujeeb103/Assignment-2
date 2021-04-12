@@ -29,3 +29,7 @@ function saveNote() {
     notesArray.push(createNote(title, body))
     cleanUp()
 }
+
+function createNote(title, body) {
+    return { title, body }
+}
