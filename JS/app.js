@@ -42,3 +42,8 @@ function convertDivsToString() {
     }
     return str
 }
+
+function cleanUp() {
+    const div = document.querySelector('#note-area')
+    div.remove()
+}
