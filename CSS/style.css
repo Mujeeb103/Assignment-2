@@ -33,6 +33,14 @@
         width: 50px
       }
     
+      .checkbox {
+        opacity: 0;
+        position: absolute;
+      }
+    
+      .checkbox:checked + .label .ball {
+        transform: translateX(24px);
+      }
 
 
     .header {
