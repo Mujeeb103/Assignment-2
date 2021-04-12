@@ -33,3 +33,12 @@ function saveNote() {
 function createNote(title, body) {
     return { title, body }
 }
+
+function convertDivsToString() {
+    let str = ""
+    const divs = [...document.querySelectorAll('[contenteditable] > div:not(:first-child)')]
+    for (const i of divs) {
+        str += `${i.textContent}\n`
+    }
+    return str
+}
