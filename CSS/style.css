@@ -62,6 +62,12 @@
         color: #f6c177;
       }
 
+       
+  .fa-plus {
+    color: #191724;
+    font-size: 40px;
+  }
+
 
     .header {
     grid-area: h;
