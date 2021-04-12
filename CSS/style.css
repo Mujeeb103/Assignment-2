@@ -42,6 +42,26 @@
         transform: translateX(24px);
       }
 
+      .ball {
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 5px;
+        left: 6px;
+        height: 26px;
+        width: 26px;
+        transition: transform 0.2s linear;
+      }
+    
+    
+      .fa-moon {
+        color: #817c9c;
+      }
+    
+      .fa-sun {
+        color: #f6c177;
+      }
+
 
     .header {
     grid-area: h;
