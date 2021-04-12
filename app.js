@@ -21,3 +21,11 @@ function setCursor() {
     const div = document.querySelector('#note')
     div.focus()
 }
+
+function saveNote() {
+    const div = document.querySelector('#note')
+    const title = div.firstChild.textContent
+    const body = convertDivsToString()
+    notesArray.push(createNote(title, body))
+    cleanUp()
+}
