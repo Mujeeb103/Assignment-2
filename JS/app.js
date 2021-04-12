@@ -47,3 +47,10 @@ function cleanUp() {
     const div = document.querySelector('#note-area')
     div.remove()
 }
+
+const checkbox = 
+document.getElementById('checkbox');
+
+checkbox.addEventListener('change', () => {
+    document.body.classList.toggle('dark');
+});
