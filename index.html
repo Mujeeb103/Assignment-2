@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5dff46258e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/style.css">
     <title>note-ly</title>
 </head>
@@ -30,6 +31,9 @@
         </nav> 
          <div class="main">
            <div class="note-area">
+            <div>
+              <span onclick="createContentWritingArea()"><i class="fas fa-plus"></i></span>
+            </div>
              <div class="textinput" contenteditable="true"></div>
              <div class="note-buttons"></div>
           <button id="save-btn">save</button>
