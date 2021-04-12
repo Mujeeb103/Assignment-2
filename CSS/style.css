@@ -66,7 +66,36 @@
   .fa-plus {
     color: #191724;
     font-size: 40px;
+
+    
   }
+
+  #content {
+    padding: 10px 19px;
+    max-width: 600px;
+  }
+
+  [contenteditable] {
+    font-size: 25px;
+    color: #31748f;
+  }
+
+  [contenteditable] > div {
+    font-size: 18px;
+    color: #191724
+
+
+  }
+
+  [contenteditable] > div:first-child {
+    font-size: 25px;
+    color: #31748f
+  }
+
+  [contenteditable]:focus {
+    outline: none;
+  }
+
 
 
     .header {
