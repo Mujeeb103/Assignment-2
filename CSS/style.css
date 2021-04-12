@@ -62,6 +62,11 @@
         color: #f6c177;
       }
 
+      body.dark {
+        background-color: #2a273f;
+      }
+      
+
        
   .fa-plus {
     color: #191724;
