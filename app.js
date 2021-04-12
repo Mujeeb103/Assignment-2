@@ -16,3 +16,8 @@ function createContentWritingArea() {
     div.insertAdjacentHTML('beforeend', defineNoteWritingSection())
     setCursor()
 }
+
+function setCursor() {
+    const div = document.querySelector('#note')
+    div.focus()
+}
